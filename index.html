@@ -29,10 +29,15 @@
             <button id="generate-btn" onclick="generateNewPwd()">Generate passwords</button>
             <hr/>
             <div class="btn-wrapper">
-                <button class="generated-btn" id="1" onclick="copy1()">&nbsp;</button>
-                <button class="generated-btn" id="2" onclick="copy2()">&nbsp;</button>
+                <div class="tooltip">
+                    <button class="generated-btn" id="1" onclick="copy1()">&nbsp;</button>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                </div>
+                <div class="tooltip">
+                    <button class="generated-btn" id="2" onclick="copy2()">&nbsp;</button>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                </div>
             </div>
-        </div>
-        <script src="index.js"></script>
+        <script defer src="index.js"></script>
     </body>
 </html>

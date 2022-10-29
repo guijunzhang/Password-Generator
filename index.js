@@ -48,11 +48,9 @@ function generateNewPwd() {
 function copy1(msg) {
     var copyText = document.getElementById("1");
     navigator.clipboard.writeText(copyText.textContent)
-    alert("Copied pasword 1!")
 }
 
 function copy2(msg) {
     var copyText = document.getElementById("2");
     navigator.clipboard.writeText(copyText.textContent)
-    alert("Copied password 2!")
 }
